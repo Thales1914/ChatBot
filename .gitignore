@@ -1,0 +1,22 @@
+# Arquivo de Segredos do Streamlit (O MAIS IMPORTANTE)
+.streamlit/secrets.toml
+
+# Pastas de cache e arquivos compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pastas de Ambiente Virtual (boa prática)
+venv/
+env/
+.venv/
+.env/
+
+# Arquivos de configuração de editores de código (opcional, mas recomendado)
+.vscode/
+.idea/
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
