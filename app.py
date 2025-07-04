@@ -33,7 +33,7 @@ st.markdown(
 
 col1, col2, col3 = st.columns([2, 3, 2])
 with col2:
-    st.image("logo.png", use_column_width=True)
+    st.image("logo.png", use_container_width=True)
 
 st.markdown("<h1 style='text-align: center; color: white;'>Assistente de Dados ÔMEGA</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: #AAAAAA;'>Consulte relatórios de Vendedores, Supervisores e Coordenadores.</p>", unsafe_allow_html=True)
